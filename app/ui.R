@@ -79,7 +79,7 @@ shinyUI(
                   ),
                   tabPanel(title="Facilities in Each Borough",
                            style = "background-color: #ffffff;",
-                           includeHTML("../data/Facilities_in_Each_Borough.html"),
+                           includeHTML("../output/Facilities_in_Each_Borough.html"),
                            absolutePanel(id = "controls", class = "panel panel-default", fixed = TRUE, draggable = TRUE,
                                          top = 150, left = "auto", right = 50, bottom = "auto", width = 310, height = "auto",
                                          p("The interactive circle packing plots shows the number of firestations in each borough."))
@@ -87,7 +87,7 @@ shinyUI(
                            ),
                   tabPanel(title="Alarm Sources",
                            style = "background-color: #ffffff;",
-                           includeHTML("../data/Alarm_sources.html"),
+                           includeHTML("../output/Alarm_sources.html"),
                            absolutePanel(id = "controls", class = "panel panel-default", fixed = TRUE, draggable = TRUE,
                                          top = 150, left = "auto", right = 50, bottom = "auto", width = 310, height = "auto",
                                          p("This bar plot animation shows the changes of how emergency alarms are sent to people. UCT/911 is the most used method to inform people the emergency while other methods such as EMS are not so frequently used. This plot can be helpful to indicate where people can receive information while in an emergency."))
@@ -95,7 +95,7 @@ shinyUI(
                   ),
                   tabPanel(title="Incidents in Each Borough",
                            style = "background-color: #ffffff;",
-                           includeHTML("../data/Incidents_in_Each_Borough-copy.html"),
+                           includeHTML("../output/Incidents_in_Each_Borough-copy.html"),
                            absolutePanel(id = "controls", class = "panel panel-default", fixed = TRUE, draggable = TRUE,
                                          top = "auto", left = 50, right = "auto", bottom = 40, width = 800, height = "auto",
                                          p("Incidents in Each Borough
