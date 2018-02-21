@@ -71,23 +71,49 @@ shinyUI(
       tabsetPanel(type="tabs", 
                   tabPanel(title="Fire Incident Types",
                            style = "background-color: #ffffff;",
-                           img(src="cooledited.gif", width = "900px")
+                           img(src="cooledited.gif", width = "900px"),
+                           absolutePanel(id = "controls", class = "panel panel-default", fixed = TRUE, draggable = TRUE,
+                                         top = 150, left = "auto", right = 50, bottom = "auto", width = 310, height = "auto",
+                                         p("This animation visualizes the 911 cases by classification for each month. We could find that majority of the fire cases responded by NYFD is related to private dwelling fire. The second main classification is commercial building. School Fire, Store Fire and Hospital Fire relatively account for a small proportion of total cases. We do observe a fluctuation regarding the auto mobile fire percentages. They tend to increase at first then decrease. Other than that, we haven’t seen dramatic changes within the observation period starting from Jan 2013 to Feb 2015."))
+                           
                   ),
                   tabPanel(title="Facilities in Each Borough",
                            style = "background-color: #ffffff;",
-                           includeHTML("../data/Facilities_in_Each_Borough.html")                            
+                           includeHTML("../data/Facilities_in_Each_Borough.html"),
+                           absolutePanel(id = "controls", class = "panel panel-default", fixed = TRUE, draggable = TRUE,
+                                         top = 150, left = "auto", right = 50, bottom = "auto", width = 310, height = "auto",
+                                         p("The interactive circle packing plots shows the number of firestations in each borough."))
+                                                       
                            ),
                   tabPanel(title="Alarm Sources",
                            style = "background-color: #ffffff;",
-                           includeHTML("../data/Alarm_sources.html")
+                           includeHTML("../data/Alarm_sources.html"),
+                           absolutePanel(id = "controls", class = "panel panel-default", fixed = TRUE, draggable = TRUE,
+                                         top = 150, left = "auto", right = 50, bottom = "auto", width = 310, height = "auto",
+                                         p("This bar plot animation shows the changes of how emergency alarms are sent to people. UCT/911 is the most used method to inform people the emergency while other methods such as EMS are not so frequently used. This plot can be helpful to indicate where people can receive information while in an emergency."))
+                           
                   ),
                   tabPanel(title="Incidents in Each Borough",
                            style = "background-color: #ffffff;",
-                           includeHTML("../data/Incidents_in_Each_Borough-copy.html")
+                           includeHTML("../data/Incidents_in_Each_Borough-copy.html"),
+                           absolutePanel(id = "controls", class = "panel panel-default", fixed = TRUE, draggable = TRUE,
+                                         top = "auto", left = 50, right = "auto", bottom = 40, width = 800, height = "auto",
+                                         p("Incidents in Each Borough
+                                           Ladder companies (also known as truck companies) are tasked with search and rescue, forcible entry, and ventilation at the scene of a fire.
+                                           Engine companies are tasked with securing a water supply from a fire hydrant, then extinguishing a fire. 
+                                           Other companies: Field Communications Unit , Brush Fire Unit etc. These companies usually have special equipment to handle specific task. 
+                                           Obviously, Brooklyn and Queens have more incidents than other boroughs. We noticed that queens borough require more ladder unit than average.
+                                           
+                                           Obviously, Brooklyn and Queens have more incidents than other boroughs. We noticed that queens borough require more ladder unit than average."))
+                           
                   ),
                   tabPanel(title="Fire House Response Time",
                            style = "background-color: #ffffff;",
-                           img(src="response time.jpeg")
+                           img(src="response time.jpeg"),
+                           absolutePanel(id = "controls", class = "panel panel-default", fixed = TRUE, draggable = TRUE,
+                                         top = 150, left = "auto", right = 50, bottom = "auto", width = 310, height = "auto",
+                                         p("This plot shows the dipatch response time from each incidents in each borough. To be more informative, we only contained the response time over 100 seconds. We can see from the plot that it takes longer for firestations in Queen to response. Furthemore, firestations in Brooklyn have some extremly longer response times than firestations in other boroughs."))
+                           
                   
                   )
                   )
