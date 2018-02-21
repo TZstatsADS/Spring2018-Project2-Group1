@@ -21,7 +21,12 @@ shinyUI(
       br(),
       br(),
       p(strong("In this project, we have developed an App using R Shiny to visualize NYC fire incident data. This App can not only help the government and FDNY to have better policy-makings, provide useful information for insurance companies to design more profitable quotes regarding the property insurance and guide the residents to get access to those fire incidents in NYC.",
-               style = "color:white; font-size:16pt")))
+               style = "color:white; font-size:16pt")),
+      br(),br(),br(), br(),br(),br(),
+      br(),br(),br(), br(),
+      br(),br(),br(),
+      p(em(a("Github link",href="https://github.com/TZstatsADS/Spring2018-Project2-Group1",style = "color:white")))
+      )
       )
   ),
 
