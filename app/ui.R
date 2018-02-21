@@ -98,8 +98,7 @@ shinyUI(
                            includeHTML("../output/Incidents_in_Each_Borough-copy.html"),
                            absolutePanel(id = "controls", class = "panel panel-default", fixed = TRUE, draggable = TRUE,
                                          top = "auto", left = 50, right = "auto", bottom = 40, width = 800, height = "auto",
-                                         p("Incidents in Each Borough
-                                           Ladder companies (also known as truck companies) are tasked with search and rescue, forcible entry, and ventilation at the scene of a fire.
+                                         p("Ladder companies (also known as truck companies) are tasked with search and rescue, forcible entry, and ventilation at the scene of a fire.
                                            Engine companies are tasked with securing a water supply from a fire hydrant, then extinguishing a fire. 
                                            Other companies: Field Communications Unit , Brush Fire Unit etc. These companies usually have special equipment to handle specific task. 
                                            Obviously, Brooklyn and Queens have more incidents than other boroughs. We noticed that queens borough require more ladder unit than average.
