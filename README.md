@@ -2,7 +2,7 @@
 
 ### [Fire and Rescue](https://guanzy.shinyapps.io/trafficcare2/)
 
-![screenshot](./doc/shiny app1.png)
+![screenshot](doc/shinyapp1.png)
 
 In this second project of GR5243 Applied Data Science, we develop an *Exploratory Data Analysis and Visualization* shiny app on a topic of NYC Fire and Rescue. 
 
@@ -37,7 +37,7 @@ Term: Spring 2018
 	In the map, users can easily find out the distribution and detailed locations of firehouses in all five boroughs of New York City. They can also search a certain fire incident happened in New York City through the date-time filter on map. In addition, they can interactively compare the amount of fire incidents between different boroughs during a specific period. Residents could use this map to find out the incidents around them, and the nearest fire stations in the area. Insurance companies could search for patterns and raise the relevant fire insurance quotes in the areas where fire incidents were more likely to occur. 
 
 	In the second part of the Shiny App, we applied various data visualization tools (animated bar plot, interactive circle packing, JavaScript library) to analyze the fire incident data as it relates to the assignment of resources and the Fire Department's responses to the emergency. For example, we observed six types of fire incidents including the school fire, auto mobile fire, private dwelling fire and found out private dwelling fire took place more frequently. Also, Queens has the most number of fire incidents but without enough number of fire facilities relatively. As for the assignment of resources, engine unit was most popular fire companies assigned, followed by ladder companies. As a result, FDNY should allocate more engine units in the facilities of high-risk areas, like Queens. 
-![screenshot](../doc/shiny app2.png)
+![screenshot](doc/shinyapp2.png)
 
 + **Contribution statement**: 
 	
