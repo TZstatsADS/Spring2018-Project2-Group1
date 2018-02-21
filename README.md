@@ -39,6 +39,7 @@ Term: Spring 2018
 	In the second part of the Shiny App, we applied various data visualization tools (animated bar plot, interactive circle packing, JavaScript library) to analyze the fire incident data as it relates to the assignment of resources and the Fire Department's responses to the emergency. For example, we observed six types of fire incidents including the school fire, auto mobile fire, private dwelling fire and found out private dwelling fire took place more frequently. Also, Queens has the most number of fire incidents but without enough number of fire facilities relatively. As for the assignment of resources, engine unit was most popular fire companies assigned, followed by ladder companies. As a result, FDNY should allocate more engine units in the facilities of high-risk areas, like Queens. 
 	
 ![screenshot](doc/shinyapp2.png)
+
 ![screenshot](doc/shinyapp3.png)
 
 + **Contribution statement**: 
