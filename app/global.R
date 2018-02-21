@@ -13,11 +13,11 @@ library(plyr)
 
 
 # data file source - load first
-load("./data/Firehouse.RData")
-load("./data/Incident_data_selected.RData")
+load("../data/Firehouse.RData")
+load("../data/Incident_data_selected.RData")
 
 # From https://data.cityofnewyork.us/Business/Zip-Code-Boundaries/i8iw-xf4u/data
-NYCzipcodes <- readOGR("./data/ZIP_CODE_040114.shp", verbose = FALSE)
+NYCzipcodes <- readOGR("../data/ZIP_CODE_040114.shp", verbose = FALSE)
 
 
 # Borough & zipcode - list

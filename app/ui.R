@@ -70,15 +70,15 @@ shinyUI(
                   ),
                   tabPanel(title="Facilities in Each Borough",
                            style = "background-color: #ffffff;",
-                           includeHTML("./data/Facilities_in_Each_Borough.html")                            
+                           includeHTML("../data/Facilities_in_Each_Borough.html")                            
                            ),
                   tabPanel(title="Alarm Sources",
                            style = "background-color: #ffffff;",
-                           includeHTML("./data/Alarm_sources.html")
+                           includeHTML("../data/Alarm_sources.html")
                   ),
                   tabPanel(title="Incidents in Each Borough",
                            style = "background-color: #ffffff;",
-                           includeHTML("./data/Incidents_in_Each_Borough-copy.html")
+                           includeHTML("../data/Incidents_in_Each_Borough-copy.html")
                   ),
                   tabPanel(title="Fire House Response Time",
                            style = "background-color: #ffffff;",
